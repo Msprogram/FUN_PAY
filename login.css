@@ -1,0 +1,66 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.login-box {
+  width: 500px;
+  height: 500px;
+  background:#151414;
+  color: #fff;
+  border-radius: 12px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+#forg{
+  color:grey;
+  text-align: justify;
+  padding-left: 150px;
+}
+
+#signup{
+  color:grey;
+  text-align: justify;
+  padding-left: 75px;
+}
+
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0px;
+  color: red;
+}
+
+
+
+
+input[type="text"],input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
